@@ -36,6 +36,8 @@ ADD PRIMARY KEY(order_id);
 
 select regexp_substr_all(order_id, '[[:digit:]]',8) as new_id from sales_data;
 
+SELECT * ,SPLIT_PART(ORDER_ID,'-',3) AS NEW_ID FROM SALES_DATA;
+
 
 --FLAG ,IF DISCOUNT IS GREATER THEN 0 THEN  YES ELSE FALSE AND PUT IT IN NEW COLUMN FRO EVERY ORDER ID.
                                  
