@@ -1,0 +1,61 @@
+Advance Excel Assignment 3
+
+
+
+1. How and when to use the AutoSum command in excel?
+   The AutoSum command in Excel is a quick and convenient way to automatically insert common mathematical functions (such as SUM, AVERAGE, COUNT, etc.) 
+   for a selected range of cells. It helps us to perform basic calculations without manually typing the formulas, reducing the chances of errors and saving time.  
+   The AutoSum feature is particularly useful when we want to perform simple calculations on numerical data quickly.
+   
+   Here's how to use the AutoSum command:
+
+   - Select the cell where we want the result of the calculation to appear. For example, if we want the sum of a range,  
+     select the cell below the range or to the right of it.
+   - Click on the "AutoSum" button in the "Editing" group on the "Home" tab of the Excel ribbon. The AutoSum button looks like the Greek letter Sigma (∑).
+   - Excel will automatically try to detect the range of cells we want to include in the calculation. The range will be highlighted with a marquee border.
+     If Excel selects the correct range, press "Enter" to confirm the calculation. If it doesn't, we can adjust the range manually by dragging the selection or typing the correct range.
+   - The AutoSum command will insert the appropriate function (e.g., SUM, AVERAGE, COUNT, etc.) along with the selected range in the formula bar,
+     and it will display the calculated result in the selected cell.
+
+   When to use the AutoSum command:
+
+   - Adding a series of numbers: Use AutoSum when we want to find the sum of a range of numbers quickly.
+   - Calculating averages: AutoSum is handy for finding the average of a range of values without writing the AVERAGE formula manually.
+   - Counting cells with values: When we need to count the number of cells with numerical values, we can use AutoSum with the COUNT function.
+   - Min and Max calculations: AutoSum can help us to quickly find the minimum and maximum values in a range using the MIN and MAX functions.
+
+
+2. What is the shortcut key to perform AutoSum?
+   In Excel the shortcut key to perform AutoSum is "Alt + =".
+   
+
+
+3. How do you get rid of Formula that omits adjacent cells?
+   - Select the cell containing the formula: Click on the cell that contains the formula we want to remove.
+   - Copy the value: Press "Ctrl + C" on keyboard or right-click on the cell and choose "Copy" from the context menu. 
+     This will copy the cell's value, which is the result of the formula.
+   - Paste the value as a "Paste Special" operation: Right-click on the same cell, choose "Paste Special" from the context menu,
+     and then select "Values" from the options. Alternatively, we can use the keyboard shortcut "Alt + E + S + V" to perform the same operation.
+   - The formula will be replaced by its calculated value, and the cell will no longer contain the formula but only the final result.
+
+
+
+4. How do you select non-adjacent cells in Excel 2016?
+   - Click on the first cell we want to select.
+   - Press and hold the "Ctrl" key on keyboard.
+   - While holding the "Ctrl" key, use mouse to click on other cells we want to select. Each cell we click will be added to the selection.
+   - Release the "Ctrl" key when we have selected all the non-adjacent cells we need.
+
+
+5. What happens if you choose a column, hold down the Alt key and press the letters
+   ocw in quick succession?
+   Pressing Alt + o + c + w in quick succession will open the "Format Cells" dialog box and take us directly to the "Wrap Text" option under the "Alignment" tab. 
+   This allows us to quickly enable or disable text wrapping for the selected cells in the chosen column without using the mouse to navigate through the Ribbon menu.
+
+
+6. If you right-click on a row reference number and click on Insert, where will the row
+   be added?
+   If we right-click on a row reference number in Microsoft Excel and click on "Insert," a new row will be added directly above the 
+   row that corresponds to the row reference number we clicked on.
+
+
