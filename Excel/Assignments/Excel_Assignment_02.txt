@@ -1,0 +1,95 @@
+Advance Excel Assignment 2
+
+
+
+1. What does the dollar($) sign do?
+   The dollar sign ($) has a special function when used in cell references. It is used to create an absolute reference,
+   which means that the cell reference will not change when copied or moved to other cells. 
+   This is particularly useful when we want to fix a reference to a specific cell or range, ensuring that it remains constant regardless of where it is used.
+
+
+
+2. How to Change the Reference from Relative to Absolute (or Mixed).
+   In Excel, we can change cell references from relative to absolute or mixed by using the dollar sign ($) appropriately. 
+   Changing a Reference to Absolute:
+   To change a cell reference to an absolute reference (both column and row fixed), we need to add dollar signs before the column letter and row number. For example:
+   Relative Reference: A1
+   Absolute Reference: $A$1
+
+
+3. Explain the order of operations in excel?
+   In Microsoft Excel, the order of operations refers to the sequence in which mathematical and logical operations are performed in a formula. 
+   Just like in mathematics, Excel follows a specific set of rules to calculate the results of complex formulas correctly. The order of operations in Excel is as follows:
+   Parentheses (Brackets) 
+   Exponents 
+   Multiplication and Division - Excel performs multiplication and division operations from left to right. Both these operations have the same precedence.
+   Addition and Subtraction -  Excel performs addition and subtraction operations from left to right. Both these operations have the same precedence.
+
+
+4. What, according to you, are the top 5 functions in excel and write a basic syntax for any of two?
+   The top 5 functions in Microsoft Excel, based on their versatility and usefulness, are:
+
+   SUM: Adds up the values in a range of cells.
+   Syntax: =SUM(number1, [number2], ...)
+   Example: =SUM(A1:A5) - This will sum the values in cells A1 to A5.
+
+   VLOOKUP: Searches for a value in the first column of a table and returns a value in the same row from a specified column.
+   Syntax: =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+   Example: =VLOOKUP(B2, A1:C10, 3, FALSE) - This will look for the value in cell B2 within the range A1:C10 and return the value in the third column of the matched row.
+
+   IF: Evaluates a condition and returns one value if the condition is true and another value if it's false.
+   Syntax: =IF(logical_test, value_if_true, value_if_false)  
+   Example: =IF(A1>10, "Greater than 10", "Less than or equal to 10") - This will check if the value in cell A1 is greater than 10 and return different messages accordingly.
+
+   COUNT: Counts the number of cells in a range that contains numeric values.
+   Syntax: =COUNT(value1, [value2], ...)
+   Example: =COUNT(A1:A10) - This will count the number of cells in the range A1:A10 that contain numeric values.
+
+   CONCATENATE: Joins multiple text strings into one.
+   Syntax: =CONCATENATE(text1, [text2], ...)
+   Example: =CONCATENATE("Hello", " ", "World") - This will concatenate the three strings into "Hello World".
+
+
+5. When would you use the subtotal function?
+   The SUBTOTAL function in Excel is used to perform calculations on a range of data while providing the flexibility to ignore other SUBTOTAL functions within the range. 
+   It is particularly useful when we want to apply different aggregate functions to a dataset that contains subtotals or nested subtotals. 
+   The SUBTOTAL function is often used in combination with filtered or sorted data.
+
+   The general syntax of the SUBTOTAL function is as follows:
+   SUBTOTAL(function_num, range1, [range2], ...)
+   function_num: An integer representing the function to be used for calculation (e.g., 1 for AVERAGE, 9 for SUM, 2 for COUNT, etc.). 
+   Excel offers various function numbers that correspond to different aggregate functions.
+   range1, [range2], ...: The range(s) of cells we want to perform the calculation on.  
+
+
+
+
+
+6. What is the syntax of the vlookup function? Explain the terms in it?
+   The VLOOKUP function in Excel is used to search for a value in the first column of a table (or range) and retrieve a corresponding value from a specified column 
+   within the same row. It is commonly used for performing table lookups and is especially helpful for large datasets where we need to find specific information quickly.
+
+   The syntax of the VLOOKUP function is as follows:
+   VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+   Let's break down each term in the syntax:
+
+   lookup_value: This is the value we want to find in the first column of the table. It is the value we are looking for in the lookup process. 
+   The lookup_value can be a constant, a cell reference, or a formula that evaluates to a value we want to search for.
+
+   table_array: This is the range of cells that contains the data we want to search. It is the table from which we want to look up the value. 
+   The table_array should include the column that contains the lookup_value and the column from which we want to retrieve the result.
+
+   col_index_num: This is the column number from which we want to retrieve the result value. It represents the relative position of the column in the table_array.
+   The first column in the table_array is column number 1, the second column is column number 2, and so on.
+
+   range_lookup: This is an optional argument that specifies whether we want an exact match or an approximate match. 
+   If we omit this argument or set it to TRUE (or 1), the VLOOKUP function will perform an approximate match and look for the closest match to the lookup_value 
+   in the first column. If we set it to FALSE (or 0), the function will perform an exact match and only return a result if it finds an exact match to the lookup_value.
+
+   It's important to note that when using VLOOKUP, the first column in the table_array must contain the lookup values in 
+   ascending order for an approximate match to work correctly. For an exact match, the order does not matter.
+
+
+
+
+
