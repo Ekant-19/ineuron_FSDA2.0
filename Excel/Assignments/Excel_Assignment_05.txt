@@ -1,0 +1,84 @@
+Atrafficdvance Excel Assignment 5
+
+1. How many types of conditions are available in conditional formatting on Excel?
+   Highlight Cell Rules:
+   Greater Than 
+   Less Than
+   Between
+   Equal To
+   Text That Contains
+   Date Occurring
+   Duplicate Values
+   Unique Values
+
+  Top/Bottom Rules:
+  Top 10 Items
+  Top 10%
+  Bottom 10 Items
+  Bottom 10%
+  
+  Data Bars:
+  Gradient Fill (Data Bars)
+
+  Color Scales:
+  2-Color Scale
+  3-Color Scale
+
+  Icon Sets:
+  Arrows
+  Traffic Lights
+  Shapes 
+  Symbols
+  
+  Custom Formula:
+  We can create our own custom formula to define specific formatting rules based on our requirements.
+
+
+
+2. How to insert border in Excel with Format Cells dialog?
+   To insert borders in Excel using the Format Cells dialog, follow these steps:
+
+   - Select the Cells
+
+   - Open the Format Cells Dialog: Right-click on the selected cells and choose "Format Cells..." from the context menu. 
+     Go to the Border Tab: In the Format Cells dialog, click on the "Border" tab.
+
+   - Choose Border Style and Color: Under the Border tab, we can select different border styles and colors for various edges of the cell(s). 
+
+   - Apply Borders: To apply borders, click on the buttons representing different edges of the cells 
+     (e.g., left border, right border, top border, bottom border) to enable or disable them.
+
+   - Apply to Specific Edges: If we want to apply borders only to specific edges, we can click on the "Presets" buttons for those specific 
+     configurations or select the desired edges manually in the "Preview" section.
+
+
+
+3. How to Format Numbers as Currency in Excel?
+   To format numbers as currency in Excel, we can use the built-in "Number Format" options. 
+
+
+4. What are the steps to format numbers in Excel with the Percent style?
+   Select the Cells: Select the cells containing the numbers we want to format as percentages. You can select a single cell, a range of cells, or an entire column/row.
+   Go to the "Home" Tab: In the Excel Ribbon, navigate to the "Home" tab.
+   Open the "Number Format" Drop-down: In the "Number" group, we will find a drop-down menu with different number format options.
+   Click on the drop-down arrow to open the menu.
+   Choose Percent Style: In the drop-down menu, select the "Percent Style" option. It is represented by the percentage symbol (%).
+   By default, this will display numbers as percentages with two decimal places (e.g., 25.00%).
+   
+
+
+5. What is a shortcut to merge two or more cells in excel?
+   Alt + H + M + M	
+
+
+6. How do you use text commands in Excel?
+   TEXT Function: The TEXT function allows us to format numbers and dates as text using custom formats.
+   For instance, =TEXT(TODAY(), "dd-mmm-yyyy") will give us the current date in the format "20-Jul-2023."
+
+
+
+
+
+
+
+
