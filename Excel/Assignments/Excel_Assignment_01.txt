@@ -1,0 +1,56 @@
+Advance Excel Assignment 1
+
+1. What do you mean by cells in an excel sheet?
+Ans: A cell refers to a specific location within a worksheet where we can enter,
+     manipulate, and display data.It is the fundamental unit of data storage in Excel and is 
+     identified by a unique combination of a column letter and a row number.
+
+
+2. How can you restrict someone from copying a cell from your worksheet?
+Ans: Select the cell or range of cells that we want to restrict from being copied.
+     Right-click on the selected cells and choose "Format Cells" from the context menu.
+     In the Format Cells dialog box, go to the "Protection" tab.
+     Uncheck the "Locked" checkbox. By default, all cells are locked, but we need to unlock the cells we want to restrict from copying.
+     Click "OK" to close the Format Cells dialog box.
+     Now, go to the "Review" tab on the Excel ribbon.
+     In the "Changes" group, click on "Protect Sheet."
+     In the "Protect Sheet" dialog box, we can set a password if we want to restrict access to the protected sheet. This step is optional.
+     Make sure that the "Protect worksheet and contents of locked cells" checkbox is selected.
+     You can also choose other options like selecting which actions users are allowed to perform, such as selecting cells, formatting cells, etc.
+     Click "OK" to protect the sheet. 
+
+3. How to move or copy the worksheet into another workbook?
+Ans: Open both the source workbook and the target workbook.
+     In the source workbook, right-click on the worksheet tab at the bottom of the Excel window. A context menu will appear.
+     From the context menu, choose either "Move or Copy..." or "Move..." depending on whether we want to move or copy the worksheet.
+
+4. Which key is used as a shortcut for opening a new window document?
+Ans: Ctrl+N
+
+5. What are the things that we can notice after opening the Excel interface?
+Ans: After opening the Excel interface, there are several things we can notice:
+
+Ribbon: It contains various tabs, such as Home, Insert, Page Layout, Formulas, Data, Review, and View, each with its own set of commands and options.
+
+Workbook: By default, Excel opens with a new blank workbook consisting of multiple worksheets. Each worksheet appears as a tab at the bottom of the Excel window.
+
+Cells: The main working area in Excel consists of a grid of cells, organized into columns and rows. 
+
+Formula Bar: The formula bar is located above the worksheet grid and displays the contents of the currently selected cell. It is used for entering or editing formulas and functions.
+
+Quick Access Toolbar: The Quick Access Toolbar is a customizable toolbar located at the top left corner of the Excel window. 
+
+Status Bar: The status bar is located at the bottom of the Excel window and provides information about the current status of Excel and the active worksheet.
+            It displays useful details such as the current cell mode (e.g., Edit mode or Enter mode), calculations in progress, and other indicators.
+
+File Options
+
+ 
+6. When to use a relative cell reference in excel?
+Ans: Relative cell references in Excel are used when we want the references in a formula to change relative 
+     to the location of the formula when copied or filled to other cells.
+
+
+
+
+
